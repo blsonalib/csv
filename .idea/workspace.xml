@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac7a60c-2483-4416-82f0-97d225dbbfaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/csvfile/users.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/csvfile/users_with_header.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencsv/CSVUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencsv/CSVUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencsv/OpenCSVReadAndParseToBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencsv/OpenCsvReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/csv/file/sona.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/csv/file/users_with_header.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencsv/OpenCSVAndGsonTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencsv/OpenCSVWritter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/opencsv/CSVUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/opencsv/OpenCSVReadAndParseToBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/opencsv/OpenCsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/opencsv/OpenCsvReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csvfile/users.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csvfile/users_with_header.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csv/file/users_with_header.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opencsv/CSVUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opencsv/OpenCSVReadAndParseToBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opencsv/OpenCsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opencsv/OpenCsvReader.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +51,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,9 +67,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OpenCSVReadAndParseToBean">
+  <component name="RunManager" selected="Application.OpenCSVAndGsonTester">
+    <configuration name="OpenCSVAndGsonTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.opencsv.OpenCSVAndGsonTester" />
+      <module name="CSVProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opencsv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenCSVReadAndParseToBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.opencsv.OpenCSVReadAndParseToBean" />
+      <module name="CSVProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opencsv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenCSVWritter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.opencsv.OpenCSVWritter" />
       <module name="CSVProject.main" />
       <extension name="coverage">
         <pattern>
@@ -86,6 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OpenCSVAndGsonTester" />
+        <item itemvalue="Application.OpenCSVWritter" />
         <item itemvalue="Application.OpenCsvReader" />
         <item itemvalue="Application.OpenCSVReadAndParseToBean" />
       </list>
@@ -109,7 +147,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -118,11 +158,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/opencsv/CSVUsers.java</url>
-          <line>12</line>
-          <properties field="phoneNo" class="com.opencsv.CSVUser" />
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/opencsv/OpenCsvReader.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
